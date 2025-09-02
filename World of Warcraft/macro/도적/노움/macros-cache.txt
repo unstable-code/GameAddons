@@ -1,0 +1,4 @@
+VER 3 0000000001000002 "은신" "134400"
+#showtooltip
+/cast [mod, stance:1, nocombat] 훔치기; [nomod, combat] 회피; 은신
+END

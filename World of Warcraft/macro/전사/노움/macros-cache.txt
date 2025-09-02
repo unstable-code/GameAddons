@@ -1,0 +1,45 @@
+VER 3 0000000001000001 "광격" "134400"
+#showtooltip 광전사의 격노
+/cast [nostance:3] 광폭 태세
+/cast 광전사의 격노
+END
+VER 3 0000000001000002 "도발" "134400"
+#showtooltip [nomod] 도발; 도발의 일격
+/cast [nomod,nostance:2] 방어 태세; [mod, nostance:1] 전투 태세
+/cast [nomod,stance:2] 도발; [mod,stance:1] 도발의 일격
+END
+VER 3 0000000001000003 "돌진" "134400"
+#showtooltip [nocombat] 돌진; [combat] 봉쇄
+/시전 [nocombat, nostance:1] 전투 태세
+/시전 [nocombat, stance:1] 돌진
+/시전 [combat, nostance:3] 광폭 태세
+/시전 [combat, stance:3] 봉쇄
+/공격시작
+/stopmacro [nogroup] [group:raid] [noexists] [help]
+/script SetRaidTarget("target", 8)
+END
+VER 3 0000000001000004 "스왑" "134400"
+#showtooltip
+/equip [no equipped: 방패] 분골의 도끼; 각골의 도끼
+/equip [no equipped: 방패] 무쇠벽 방패
+END
+VER 3 0000000001000009 "일격" "134400"
+#showtooltip
+/cast [group,nomod][nogroup,mod] 영웅의 일격; [nogroup][group,mod] 죽음의 일격
+END
+VER 3 0000000001000005 "차단" "134400"
+#showtooltip [no equipped: 방패] 자루 공격; 방패 가격
+/cast [no equipped: 방패, nostance:3] 광폭 태세
+/cast [equipped: 방패, stance:3] 전투 태세
+/cast [no equipped: 방패] 자루 공격; 방패 가격
+END
+VER 3 0000000001000006 "태세" "134400"
+#showtooltip
+/cast [nomod, stance:1] 방어 태세; [nomod] 전투 태세
+/cast [mod, nostance:3] 광폭 태세; [mod] 방어 태세
+END
+VER 3 0000000001000007 "필살" "134400"
+#showtooltip
+/stopmacro [nocombat]
+/cast [nomod,stance:1] 보복; [nomod,stance:2] 방패의 벽; [nomod] 무모한 희생; 최후의 저항
+END

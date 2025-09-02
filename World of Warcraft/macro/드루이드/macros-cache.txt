@@ -1,0 +1,22 @@
+VER 3 0000000001000002 "도트힐" "134400"
+#showtooltip
+/cast [nomod] 회복; 재생
+END
+VER 3 0000000001000003 "매즈" "134400"
+#showtooltip
+/cast [nomod] 휘감는 뿌리; 겨울잠
+END
+VER 3 0000000001000001 "어글" "134400"
+#showtooltip
+/cast [form:1] 위협의 포효; [form:0] 요정의 불꽃; [form:2] 웅크리기
+END
+VER 3 0000000001000004 "폼전환" "134400"
+#showtooltip
+/cast [nomod] 곰 변신; [mod:shift] 표범 변신; [mod:ctrl] 치타 변신
+/stopmacro [form:0][noexists][dead][help]
+/공격시작
+END
+VER 3 0000000001000005 "해제" "134400"
+#showtooltip
+/cast [nomod] 해독; 저주 해제
+END
