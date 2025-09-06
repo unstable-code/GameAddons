@@ -1,3 +1,7 @@
+VER 3 0000000001000004 "광역힐" "134400"
+#showtooltip
+/cast [group,mod] 치유의 기원; 신성한 폭발
+END
 VER 3 0000000001000003 "메즈" "134400"
 #showtooltip
 /cast [nocombat,help] 마음의 눈; [harm, mod:ctrl] 언데드 속박; [harm, mod:shift] 정신 지배; [harm, mod:alt] 마나 연소; [harm] 평정
