@@ -4,11 +4,11 @@ VER 3 0000000001000004 "광역힐" "134400"
 END
 VER 3 0000000001000003 "메즈" "134400"
 #showtooltip
-/cast [nocombat,help] 마음의 눈; [harm, mod:ctrl] 언데드 속박; [harm, mod:shift] 정신 지배; [harm, mod:alt] 마나 연소; [harm] 평정
+/cast [nocombat] 마음의 눈; [harm, mod:ctrl] 언데드 속박; [harm,mod:shift] 평정; [harm, mod:alt] 마나 연소
 END
 VER 3 0000000001000002 "무효화" "134400"
 #showtooltip
-/cast [mod] 질병 치료; 마법 무효화
+/cast [mod] 질병 해제; 마법 무효화
 END
 VER 3 0000000001000001 "셀프보호" "134400"
 #showtooltip
