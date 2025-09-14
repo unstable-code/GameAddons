@@ -16,5 +16,5 @@ VER 3 0000000001000001 "셀프보호" "134400"
 /cast [@player, nomod] 신의 권능: 보호막
 /cast [@player, mod:ctrl] 소생
 /cast [@player, mod:shift] 구원의 기도
-/cast [@player, mod:alt] 내면의 집중력
+/cast [@player, mod:alt] 순간 치유
 END
