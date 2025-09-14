@@ -4,7 +4,7 @@ VER 3 0000000001000004 "광역힐" "134400"
 END
 VER 3 0000000001000003 "메즈" "134400"
 #showtooltip
-/cast [harm,nomod] 언데드 속박; [harm,mod] 평정; [noharm] 마음의 눈
+/cast [harm,nomod] 언데드 속박; [harm,mod:ctrl] 평정; [noharm] 마음의 눈; [harm,mod:shift] 마나 연소
 END
 VER 3 0000000001000002 "무효화" "134400"
 #showtooltip
