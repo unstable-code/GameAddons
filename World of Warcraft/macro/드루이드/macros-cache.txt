@@ -2,6 +2,10 @@ VER 3 0000000001000002 "도트힐" "134400"
 #showtooltip
 /cast [nomod] 회복; 재생
 END
+VER 3 0000000001000001 "셀프보호" "134400"
+#showtooltip
+/cast [@player,nomod] 회복; [@player,mod] 치유의 손길
+END
 VER 3 0000000001000003 "매즈" "134400"
 #showtooltip
 /cast [nomod] 휘감는 뿌리; 겨울잠
